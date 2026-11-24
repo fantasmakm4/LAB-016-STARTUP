@@ -1,8 +1,8 @@
-![Portada oficial FANTASMA — LAB-016 Startup. Infografía panorámica cyberpunk en paleta verde ácido, ámbar, rojo y negro. Una calavera demoníaca encapuchada con cuernos y ojos rojos, alas de murciélago, luna roja y portátil FANTASMA preside la ruta. La portada identifica TryHackMe, la dificultad no verificada en esta sesión, Ubuntu 16.04.7, la IP dinámica 10.64.180.147 y los servicios FTP 21, SSH 22 y HTTP 80 con versiones observadas. Resume FTP anónimo, webshell PHP, análisis de PCAP, SSH como lennie y escalada por tarea programada y script modificable hasta root. Incluye herramientas, mitigaciones y estado: root confirmado; valores de credenciales y flags omitidos.](04-Imagenes/LAB-016-STARTUP.png)
+![Portada profesional FANTASMA — LAB-016 Startup. Infografía panorámica con ilustración cyberpunk de una calavera demoníaca encapuchada, cuernos, ojos rojos, alas de murciélago, luna roja y portátil. Paleta negro, carmesí, cian, ámbar y verde. Paneles legibles muestran TryHackMe, Ubuntu 16.04.7, IP dinámica de sesión, dificultad no verificada, servicios y versiones reales, cadena FTP anónimo a webshell PHP, análisis PCAP, SSH como lennie y escalada cron con script modificable a root. Incluye herramientas y mitigaciones; confirma root y omite respuestas, credenciales y flags.](04-Imagenes/LAB-016-STARTUP.png)
 
 # 😈 FANTASMA | LAB-016 — STARTUP
 
-**TryHackMe | FANTASMA LAB-016 STARTUP | Parrot OS, FTP anónimo, carga PHP, análisis PCAP, acceso SSH como lennie, escalada mediante cron y script modificable | Máquina comprometida, ROOT confirmado | Valores de credenciales y flags omitidos**
+**TryHackMe | FANTASMA LAB-016 STARTUP | Parrot OS, Nmap, FTP anónimo escribible, Gobuster, webshell PHP, análisis PCAP, SSH como lennie, escalada cron a ROOT | Máquina comprometida, ROOT confirmado | User flag recuperada; valores omitidos, root.txt no mostrado**
 
 ## Información del laboratorio
 

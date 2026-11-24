@@ -1,0 +1,13 @@
+05-Evidencias/privado/*
+!05-Evidencias/privado/.gitkeep
+*.pem
+*.key
+*.hash
+id_rsa*
+__pycache__/
+*.pyc
+*.bak
+suspicious.pcapng
+shell.php
+*.pcap
+*.pcapng

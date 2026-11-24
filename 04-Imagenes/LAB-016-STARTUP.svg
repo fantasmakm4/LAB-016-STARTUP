@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000">
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#070910"/><stop offset=".52" stop-color="#11141d"/><stop offset="1" stop-color="#08080c"/></linearGradient>
+  <linearGradient id="card" x2="0" y2="1"><stop stop-color="#171c25"/><stop offset="1" stop-color="#0b0e14"/></linearGradient>
+  <linearGradient id="red" x2="1"><stop stop-color="#8f1018"/><stop offset=".5" stop-color="#ff2837"/><stop offset="1" stop-color="#821019"/></linearGradient>
+  <linearGradient id="acid" x2="1"><stop stop-color="#f7b32b"/><stop offset="1" stop-color="#9be34a"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8ca0b3" stroke-opacity=".09" stroke-width="1"/></pattern>
+</defs>
+<rect width="1800" height="1000" fill="url(#bg)"/><rect width="1800" height="1000" fill="url(#grid)"/>
+<path d="M0 200L190 90l180 100 220-140 170 100 230-120 190 130 200-150 210 120 210-90v260H0Z" fill="#1a2430" opacity=".42"/>
+<g fill="#24303a" opacity=".55"><path d="M0 250h50v-100h35v100h40V90h55v160h30v-70h50v70h40v-130h55v130h60V75h55v175h60v-90h40v90h60v-150h55v150h50v-80h45v80h55V90h70v160h45v-110h52v110h40V80h45v170h50v-70h45v70h45V120h50v130h40V85h55v165h45v-85h40v85h50V110h65v140h50v-70h40v70h40v-115h60v115h45v-80h45v80h55v-130h65v130h50v-90h45v90h50v-140h65v140h45v-90h50v90h55v-120h70v120h40v-80h55v80h30v120H0Z"/></g>
+<circle cx="890" cy="158" r="86" fill="#a71825" opacity=".62" filter="url(#glow)"/><circle cx="890" cy="158" r="69" fill="#f52634" opacity=".78"/>
+<!-- FANTASMA hooded skull emblem -->
+<g transform="translate(892 158)">
+ <path d="M-92 46Q-118-41-48-79L-23-111L0-90L27-111L52-78Q119-35 91 47L72 94H-75Z" fill="#0b1018" stroke="#526171" stroke-width="7"/>
+ <path d="M-53-49Q0-82 54-49L68 19L41 69H-42L-67 17Z" fill="#131820" stroke="#5a6670" stroke-width="4"/>
+ <path d="M-47-34L-25-22L-49-9L-63-18Z M47-34L25-22L49-9L63-18Z" fill="#ff2d35" filter="url(#glow)"/>
+ <path d="M-8 2L0-8L8 2L0 10Z" fill="#030609"/>
+ <path d="M-33 35Q0 21 33 35L29 58Q0 70-29 58Z" fill="#d7dde0"/>
+ <path d="M-24 36V56M-12 33V61M0 32V63M12 33V61M24 36V56" stroke="#252b32" stroke-width="4"/>
+ <path d="M-60-53Q-86-90-42-111L-35-72 M60-53Q86-90 42-111L35-72" fill="#151b24" stroke="#89939c" stroke-width="6"/>
+ <path d="M-91 6Q-165-46-195-12Q-159-8-190 31Q-135 21-112 63M91 6Q165-46 195-12Q159-8 190 31Q135 21 112 63" fill="#101820" stroke="#9b1823" stroke-width="7"/>
+ <path d="M-130 78L-82 56L-46 92H46L82 56L130 78L100 118H-100Z" fill="#121820" stroke="#555f69" stroke-width="4"/>
+ <rect x="-69" y="74" width="138" height="60" rx="6" fill="#0c1118" stroke="#d83138" stroke-width="5"/>
+ <text x="0" y="111" text-anchor="middle" fill="#f6f3ec" font-size="22" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="3">FANTASMA</text>
+</g>
+<text x="52" y="67" fill="#eff2f4" font-size="34" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="8">PROTOCOLO</text>
+<text x="52" y="133" fill="#f6f4f0" font-size="64" font-family="DejaVu Sans, sans-serif" font-weight="900" letter-spacing="3">FANTASMA</text>
+<text x="52" y="184" fill="#e3e5e8" font-size="42" font-family="DejaVu Sans, sans-serif" font-weight="bold">LAB-016 — STARTUP</text>
+<text x="52" y="224" fill="#d0d4da" font-size="22" font-family="DejaVu Sans, sans-serif">FTP anónimo · webshell PHP · PCAP · cron hasta ROOT</text>
+<rect x="1440" y="35" width="310" height="65" rx="14" fill="#231317" stroke="#ff3340" stroke-width="3"/>
+<text x="1595" y="77" text-anchor="middle" fill="#ff5d65" font-size="30" font-family="DejaVu Sans, sans-serif" font-weight="bold">ROOT CONFIRMADO</text>
+
+<!-- information cards -->
+<g font-family="DejaVu Sans, sans-serif">
+ <rect x="40" y="260" width="485" height="210" rx="18" fill="url(#card)" stroke="#f1b638" stroke-width="3"/>
+ <text x="68" y="300" fill="#ffd36a" font-size="25" font-weight="bold">INFORMACIÓN DEL LABORATORIO</text>
+ <text x="68" y="341" fill="#edf0f3" font-size="21">Plataforma: TryHackMe</text>
+ <text x="68" y="373" fill="#edf0f3" font-size="21">Sistema: Ubuntu 16.04.7 LTS</text>
+ <text x="68" y="405" fill="#edf0f3" font-size="21">IP de sesión: 10.64.180.147</text>
+ <text x="68" y="437" fill="#edf0f3" font-size="21">Dificultad: no verificada · CVE: no confirmada</text>
+ <text x="68" y="459" fill="#9ee450" font-size="18">User flag obtenida · flags omitidas · root confirmado</text>
+
+ <rect x="1270" y="260" width="490" height="210" rx="18" fill="url(#card)" stroke="#f1b638" stroke-width="3"/>
+ <text x="1300" y="300" fill="#ffd36a" font-size="25" font-weight="bold">SERVICIOS IDENTIFICADOS</text>
+ <text x="1300" y="345" fill="#ffffff" font-size="22">21/tcp  FTP   vsftpd 3.0.3</text>
+ <text x="1300" y="383" fill="#ffffff" font-size="22">22/tcp  SSH   OpenSSH 7.2p2</text>
+ <text x="1300" y="421" fill="#ffffff" font-size="22">80/tcp  HTTP  Apache 2.4.18</text>
+ <text x="1300" y="455" fill="#bfc6cf" font-size="17">Ubuntu 4ubuntu2.10 · versiones observadas</text>
+</g>
+
+<!-- attack path -->
+<g font-family="DejaVu Sans, sans-serif" text-anchor="middle">
+ <rect x="40" y="500" width="330" height="190" rx="18" fill="url(#card)" stroke="#f1b638" stroke-width="3"/>
+ <text x="205" y="545" fill="#ffd36a" font-size="26" font-weight="bold">1 · RECONOCIMIENTO</text>
+ <text x="205" y="590" fill="#f4f5f6" font-size="22">Nmap</text><text x="205" y="626" fill="#f4f5f6" font-size="20">FTP · SSH · HTTP</text><text x="205" y="661" fill="#d1d5d9" font-size="18">Gobuster: /files/</text>
+ <path d="M375 595h28l-13-12m13 12l-13 12" fill="none" stroke="#ff3442" stroke-width="5"/>
+ <rect x="420" y="500" width="330" height="190" rx="18" fill="url(#card)" stroke="#f1b638" stroke-width="3"/>
+ <text x="585" y="545" fill="#ffd36a" font-size="26" font-weight="bold">2 · ACCESO INICIAL</text>
+ <text x="585" y="590" fill="#f4f5f6" font-size="21">FTP anónimo escribible</text><text x="585" y="626" fill="#f4f5f6" font-size="20">PHP por HTTP</text><text x="585" y="661" fill="#d1d5d9" font-size="18">Ejecución como www-data</text>
+ <path d="M755 595h28l-13-12m13 12l-13 12" fill="none" stroke="#ff3442" stroke-width="5"/>
+ <rect x="800" y="500" width="330" height="190" rx="18" fill="url(#card)" stroke="#f1b638" stroke-width="3"/>
+ <text x="965" y="545" fill="#ffd36a" font-size="26" font-weight="bold">3 · ANÁLISIS PCAP</text>
+ <text x="965" y="590" fill="#f4f5f6" font-size="21">suspicious.pcapng</text><text x="965" y="626" fill="#f4f5f6" font-size="20">TShark · flujo TCP 7</text><text x="965" y="661" fill="#d1d5d9" font-size="18">Credencial SSH expuesta*</text>
+ <path d="M1135 595h28l-13-12m13 12l-13 12" fill="none" stroke="#ff3442" stroke-width="5"/>
+ <rect x="1180" y="500" width="280" height="190" rx="18" fill="url(#card)" stroke="#f1b638" stroke-width="3"/>
+ <text x="1320" y="545" fill="#ffd36a" font-size="26" font-weight="bold">4 · LENNIE</text>
+ <text x="1320" y="590" fill="#f4f5f6" font-size="21">SSH 22</text><text x="1320" y="626" fill="#f4f5f6" font-size="20">user.txt recuperada</text><text x="1320" y="661" fill="#d1d5d9" font-size="18">Secreto omitido</text>
+ <path d="M1465 595h28l-13-12m13 12l-13 12" fill="none" stroke="#ff3442" stroke-width="5"/>
+ <rect x="1510" y="500" width="250" height="190" rx="18" fill="url(#card)" stroke="#ff3340" stroke-width="3"/>
+ <text x="1635" y="545" fill="#ff666d" font-size="26" font-weight="bold">5 · ESCALADA</text>
+ <text x="1635" y="590" fill="#f4f5f6" font-size="20">planner.sh</text><text x="1635" y="626" fill="#f4f5f6" font-size="18">/etc/print.sh editable</text><text x="1635" y="661" fill="#9ee450" font-size="20" font-weight="bold">SUID Bash → ROOT</text>
+</g>
+
+<!-- bottom panels -->
+<g font-family="DejaVu Sans, sans-serif">
+ <rect x="40" y="725" width="535" height="190" rx="18" fill="url(#card)" stroke="#f1b638" stroke-width="3"/>
+ <text x="70" y="770" fill="#ffd36a" font-size="25" font-weight="bold">HERRAMIENTAS UTILIZADAS</text>
+ <text x="70" y="816" fill="#f1f3f5" font-size="23">Nmap · Gobuster · curl · ExifTool</text>
+ <text x="70" y="854" fill="#f1f3f5" font-size="23">TShark · SSH · Bash · cron</text>
+ <text x="70" y="891" fill="#aeb7c0" font-size="18">Comandos reales en 06-Comandos/COMANDOS.md</text>
+ <rect x="610" y="725" width="535" height="190" rx="18" fill="url(#card)" stroke="#ff3340" stroke-width="3"/>
+ <text x="640" y="770" fill="#ff656d" font-size="25" font-weight="bold">HALLAZGO CLAVE · SIN CVE</text>
+ <text x="640" y="816" fill="#f1f3f5" font-size="21">FTP writable + PHP ejecutable</text>
+ <text x="640" y="851" fill="#f1f3f5" font-size="21">PCAP expuesto + secreto en claro</text>
+ <text x="640" y="886" fill="#f1f3f5" font-size="21">Tarea root con script modificable</text>
+ <rect x="1180" y="725" width="580" height="190" rx="18" fill="url(#card)" stroke="#9ee450" stroke-width="3"/>
+ <text x="1210" y="770" fill="#b5f36f" font-size="25" font-weight="bold">RECOMENDACIONES</text>
+ <text x="1210" y="813" fill="#f1f3f5" font-size="20">Desactivar FTP anónimo y aislar cargas</text>
+ <text x="1210" y="848" fill="#f1f3f5" font-size="20">Proteger PCAP y rotar credenciales</text>
+ <text x="1210" y="883" fill="#f1f3f5" font-size="20">Cron: scripts root-owned, no editables</text>
+</g>
+<rect x="40" y="940" width="1720" height="42" rx="20" fill="url(#red)"/>
+<text x="900" y="969" text-anchor="middle" fill="#ffffff" font-size="23" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="1">MÁQUINA COMPROMETIDA · ROOT CONFIRMADO · VALORES DE FLAGS Y CREDENCIALES OMITIDOS</text>
+<text x="1760" y="997" text-anchor="end" fill="#b4bbc4" font-size="13" font-family="DejaVu Sans, sans-serif">* No se publican credenciales ni PCAP</text>
+</svg>

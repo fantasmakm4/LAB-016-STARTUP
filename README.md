@@ -4,6 +4,10 @@
 
 **TryHackMe | FANTASMA LAB-016 STARTUP | Parrot OS, Nmap, FTP anónimo escribible, Gobuster, webshell PHP, análisis PCAP, SSH como lennie, escalada cron a ROOT | Máquina comprometida, ROOT confirmado | User flag recuperada; valores omitidos, root.txt no mostrado**
 
+## Descripción de la portada
+
+Infografía panorámica de **LAB-016 Startup** con el avatar FANTASMA —calavera demoníaca encapuchada, cuernos, ojos rojos, alas de murciélago, luna roja y portátil— sobre un entorno urbano tecnológico. El panel de identificación indica TryHackMe, Ubuntu 16.04.7, la IP dinámica de esta sesión y que la dificultad no se verificó. El panel de servicios resume FTP/21 (vsftpd 3.0.3), SSH/22 (OpenSSH 7.2p2 Ubuntu 4ubuntu2.10) y HTTP/80 (Apache 2.4.18). La ruta visual muestra el reconocimiento con Nmap y Gobuster; el acceso FTP anónimo escribible y la ejecución del webshell PHP como `www-data`; el análisis de `suspicious.pcapng` con TShark; el acceso SSH como `lennie`; y la escalada mediante `planner.sh` y `/etc/print.sh` hasta root con Bash SUID. Los paneles inferiores enumeran herramientas, hallazgos sin CVE confirmada y recomendaciones defensivas. Se confirma root y la recuperación de `user.txt`; no se muestra `root.txt`, ni se publican contraseñas, respuestas o valores de flags.
+
 ## Información del laboratorio
 
 - Plataforma: TryHackMe
